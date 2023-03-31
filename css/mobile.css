@@ -1,8 +1,19 @@
-@media screen and (min-width: 480px),
-(max-width: 767px) {
+@media screen and (min-width: 480px) {
+
     .container {
         max-width: 428px;
-        /* padding-left: 16px; */
-        /* padding-right: 16px; */
     }
+
+    .menu-container.is-open .contact-phone {
+        font-size: 36px;
+    }
+
+    .menu-container.is-open {
+        padding-left: 40px;
+    }
+
+    .header-social-list {
+        gap: 56px;
+    }
+
 }
