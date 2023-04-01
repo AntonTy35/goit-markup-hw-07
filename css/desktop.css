@@ -7,19 +7,14 @@
     .container {
         max-width: calc(1128px + 15px + 15px);
         padding: 0 15px;
-
-
-        /* max-width: 1440px;
-        padding-left: 156px;
-        padding-right: 156px; */
     }
 
-
-    /* .header-list {
-        margin-left: 76px;
-    } */
     .menu-container {
         margin-left: 76px;
+    }
+
+    .current::after {
+        bottom: 0px;
     }
 
     .contacts {
@@ -35,20 +30,37 @@
     }
 
 
-    /* hero */
+    /* -------------------------------hero */
 
     .hero {
         padding: 188px 0;
+
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/hero-desk-min.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto auto;
+        background-color: rgba(46, 47, 66, 0.7);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/hero-desk-2x-min.jpg);
+        }
     }
 
 
 
 
 
-    /* -------------- Section 1 Description -------- */
+    /* -------------- Section 1 Description */
 
     .feature-item {
-        /* width: calc((100% - (24px)) / 4); */
         max-width: 264px;
     }
 
@@ -71,7 +83,6 @@
         font-weight: 400;
     }
 
-
     /* ------ Section 2 What are we doing -------  */
 
     .section-we-doing {
@@ -84,7 +95,6 @@
         line-height: 1.11;
         text-transform: capitalize;
         color: var(--title-text-color);
-
         text-align: center;
     }
 
@@ -99,7 +109,6 @@
         width: calc((100% - (2 * 24px)) / 3);
     }
 
-    /* ---------------- Section 3 Our Team ---------------- */
 
     /* ---------------- Section 4 Customers ---------------- */
 
@@ -114,7 +123,6 @@
     }
 
     .customers-item {
-
         width: 168px;
     }
 
@@ -134,10 +142,6 @@
         column-gap: 0;
     }
 
-
-
-
-
     /*------------ footer-social-media */
 
     .footer-social-media {
@@ -156,7 +160,6 @@
         max-width: 453px;
     }
 
-
     .footer-subscribe {
         justify-content: flex-start;
         margin-top: 0;
@@ -167,11 +170,8 @@
     }
 
     .footer-form-input {
-
         min-width: 264px;
         display: flex;
         justify-content: center;
-
-
     }
 }

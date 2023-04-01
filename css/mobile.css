@@ -16,4 +16,16 @@
         gap: 56px;
     }
 
+    .hero-title {
+        font-size: 36px;
+        line-height: 1.11;
+        width: 320px;
+    }
+
+    .modal {
+        width: 408px;
+    }
+
+
+
 }
