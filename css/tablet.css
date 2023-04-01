@@ -159,6 +159,7 @@
 
     .footer-social-title {
         margin-top: 0;
+        justify-content: flex-start;
     }
 
     /* ------------------------Footer Subscribe */
