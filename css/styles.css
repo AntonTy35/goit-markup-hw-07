@@ -286,7 +286,7 @@ body.modal-open {
     url(../images/hero-mob-min.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto auto;
+  background-size: cover;
   background-color: rgba(46, 47, 66, 0.7);
 }
 
